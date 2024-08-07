@@ -1,0 +1,19 @@
+Step 1: sudo apt-get install mininet
+
+Step 2: sudo mn -c
+
+Step 3: sudo apt-get install git
+
+Step 4: git clone git://github.com/mininet/mininet
+
+Step 5: cd mininet
+
+Step 6: git tag # list available versions
+
+Step 7: git checkout -b [version]
+
+Step 8: cd ..
+
+Step 9: mininet/util/install.sh -a
+
+Step 10: sudo mn
